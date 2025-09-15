@@ -1,4 +1,4 @@
-package sistema_uptu;
+package sistema_iptu;
 
 public class Imovel {
     private municipio municipio;

@@ -1,4 +1,4 @@
-package sistema_uptu;
+package sistema_iptu;
 
 public class municipio {
     private String nome;
@@ -10,20 +10,29 @@ public class municipio {
         this.estado = estado;
         this.precoM2 = precoM2;
     }
-    public void setnome(String nome){
+
+    public String getNome(){
+        return this.nome;
+    }
+
+    public void setNome(String nome){
         this.nome = nome;
     }
+
     public String getEstado(){
         return this.estado;
     }
+
     public void setEstado(String estado){
         this.estado = estado;
     }
+
     public Double getPrecoM2(){
         return this.precoM2;
     }
-    
-    public void setPrecoM2(double precoM2){
 
+    public void setPrecoM2(Double precoM2){
+        this.precoM2 = precoM2;
     }
+
 }
