@@ -4,9 +4,9 @@ public class Programa {
     private int MemoriaRamAlocada;
     private int SSDOcupado;
     private int Nucleos;
-    private Double QuantidadeOperacoes;
+    private float QuantidadeOperacoes;
 
-    public Programa(int MemoriaRamAlocada, int SSDOcupado, int Nucleos, Double QuantidadeOperacoes) {
+    public Programa(int MemoriaRamAlocada, int SSDOcupado, int Nucleos, float QuantidadeOperacoes) {
         this.MemoriaRamAlocada = MemoriaRamAlocada;
         this.SSDOcupado = SSDOcupado;
         this.Nucleos = Nucleos;
@@ -37,11 +37,11 @@ public class Programa {
         this.Nucleos = Nucleos;
     }
 
-    public Double getQuantidadeOperacoes() {
+    public float getQuantidadeOperacoes() {
         return this.QuantidadeOperacoes;
     }
 
-    public void setQuantidadeOperacoes(Double QuantidadeOperacoes) {
+    public void setQuantidadeOperacoes(float QuantidadeOperacoes) {
         this.QuantidadeOperacoes = QuantidadeOperacoes;
     }
 
